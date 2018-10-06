@@ -1,0 +1,13 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# DynamoDB
+.dynamodb/
+
+# Typescript Build files
+.build/
+.webpack/

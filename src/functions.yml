@@ -1,0 +1,15 @@
+helloWorld:
+  handler: src/index.handler
+  events:
+    - http:
+        path: /
+        method: get
+        cors: true
+
+graphQL:
+  handler: src/graphql/index.handler
+  events:
+    - http:
+        path: /graphql
+        method: all
+        cors: true
