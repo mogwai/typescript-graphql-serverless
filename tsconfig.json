@@ -2,6 +2,12 @@
   "compilerOptions": {
     "preserveConstEnums": true,
     "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
     "sourceMap": true,
     "target": "es5",
     "moduleResolution": "node",

@@ -2,6 +2,23 @@ plugins:
   - serverless-webpack
   - serverless-offline
 
+custom.webpack:
+  webpackIncludeModules: true
+  
+custom.dynamodb:
+    start:
+      port: 8000
+      inMemory: true
+      migrate: true
+      seed: true
+    # seed:
+    #   test:
+    #     sources:
+    #       - table: Users
+    #         sources: [seed-data/Users.json]
+    #       - table: Tweets
+    #         sources: [seed-data/Tweets.json]
+
 service: serverless-typescript-graphql
 
 provider:

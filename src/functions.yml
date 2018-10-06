@@ -11,5 +11,5 @@ graphQL:
   events:
     - http:
         path: /graphql
-        method: all
+        method: ANY 
         cors: true
