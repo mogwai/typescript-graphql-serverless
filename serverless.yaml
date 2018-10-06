@@ -1,10 +1,8 @@
 plugins: 
   - serverless-webpack
-  - serverless-plugin-typescript
   - serverless-offline
-  
 
-service: serverless-graphql-bootstrap
+service: serverless-typescript-graphql
 
 provider:
   name: aws
