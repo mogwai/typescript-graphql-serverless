@@ -22,7 +22,7 @@ module.exports = {
         test: /\.ts(x?)$/,
         use: [
           {
-            lGoader: 'ts-loader',
+            loader: 'ts-loader',
           },
         ],
       },
