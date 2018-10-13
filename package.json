@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A quick start for serverless",
   "main": "src/index.js",
+  "sideEffects": false,
   "scripts": {
     "start": "sls offline start",
     "test": "ava"
