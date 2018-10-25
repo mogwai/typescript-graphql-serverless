@@ -5,11 +5,3 @@ helloWorld:
         path: /
         method: get
         cors: true
-
-graphQL:
-  handler: src/graphql/index.handler
-  events:
-    - http:
-        path: /graphql
-        method: ANY 
-        cors: true
