@@ -19,7 +19,7 @@ custom.dynamodb:
     #       - table: Tweets
     #         sources: [seed-data/Tweets.json]
 
-service: serverless-typescript-graphql
+service: serverless-webpack-typescript
 
 provider:
   name: aws
